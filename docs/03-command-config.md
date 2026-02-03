@@ -25,6 +25,7 @@
 | 贈送禮物 (gift) | 執行禮物贈送 |
 | 查詢收到的禮物 (gift_received) | 查詢自己收到的禮物統計 |
 | 群發通知 (announce) | 發送群發通知 |
+| 工單設定 (ticket_setup) | 發送工單面板 |
 
 ### 預設指令
 
@@ -38,6 +39,7 @@
 | gift | 贈送禮物 | `!gift @人 玫瑰 3` |
 | mygifts | 查詢收到的禮物 | `!mygifts` |
 | announce | 群發通知 | `!announce @組 訊息` |
+| ticket_setup | 工單設定 | `!ticket_setup` |
 
 ### 如何自訂指令名稱
 

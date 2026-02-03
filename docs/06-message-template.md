@@ -53,6 +53,8 @@
 | **點數查詢** | 用戶執行 `!points` | `{{ points }}` — 目前點數 |
 | **群發通知** | 群發的訊息內容 | `{{ message }}`、`{{ role_name }}`、`{{ sender }}`、`{{ guild_name }}` |
 | **群發結果通知** | 群發完成後通知發送者 | `{{ role_name }}`、`{{ total }}`、`{{ success }}`、`{{ failed }}` |
+| **工單面板** | 執行 `!ticket_setup` 時發送到頻道 | （無） |
+| **工單歡迎訊息** | 工單建立後發送到新頻道 | `{{ user }}`、`{{ username }}`、`{{ ticket_name }}` |
 
 ### Jinja2 語法快速入門
 

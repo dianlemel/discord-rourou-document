@@ -19,6 +19,7 @@
 | 9 | [贈送紀錄管理](docs/09-gift-records.md) | 查看贈送紀錄 |
 | 10 | [禮物庫存管理](docs/10-gift-inventory.md) | 管理使用者的禮物庫存 |
 | 11 | [聯絡人整合](docs/11-contact.md) | Discord ID、點數、贈送/接收紀錄、禮物庫存 |
+| 12 | [工單設定與管理](docs/21-ticket-setup.md) | 工單設定、工單記錄管理 |
 
 ## 第二部分：Discord 指令操作
 
@@ -32,6 +33,7 @@
 | 15 | [贈送禮物](docs/15-gift.md) | `!gift @對方 禮物名稱 [數量]` |
 | 16 | [查詢收到的禮物](docs/16-my-gifts.md) | `!mygifts` |
 | 17 | [群發通知](docs/17-announce.md) | `!announce @身分組 訊息` |
+| 18 | [工單系統](docs/22-ticket.md) | `!ticket_setup`、建立/關閉工單 |
 
 ## 附錄
 
