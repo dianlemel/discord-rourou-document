@@ -17,7 +17,8 @@
 | 7 | [禮物管理](docs/07-gift-management.md) | 禮物項目、別名、圖片、Embed 自訂 |
 | 8 | [購買訂單管理](docs/08-purchase-orders.md) | 查看購買訂單與狀態 |
 | 9 | [贈送紀錄管理](docs/09-gift-records.md) | 查看贈送紀錄 |
-| 10 | [聯絡人整合](docs/10-contact.md) | Discord ID、點數、贈送/接收紀錄 |
+| 10 | [禮物庫存管理](docs/10-gift-inventory.md) | 管理使用者的禮物庫存 |
+| 11 | [聯絡人整合](docs/11-contact.md) | Discord ID、點數、贈送/接收紀錄、禮物庫存 |
 
 ## 第二部分：Discord 指令操作
 
@@ -25,20 +26,20 @@
 
 | # | 章節 | 說明 |
 |---|------|------|
-| 11 | [帳號綁定](docs/11-binding.md) | `!bind` |
-| 12 | [查詢點數](docs/12-query-points.md) | `!points` |
-| 13 | [購買點數](docs/13-buy-points.md) | `!buy <數量>` |
-| 14 | [贈送禮物](docs/14-gift.md) | `!gift @對方 禮物名稱 [數量]` |
-| 15 | [查詢收到的禮物](docs/15-my-gifts.md) | `!mygifts` |
-| 16 | [群發通知](docs/16-announce.md) | `!announce @身分組 訊息` |
+| 12 | [帳號綁定](docs/12-binding.md) | `!bind` |
+| 13 | [查詢點數](docs/13-query-points.md) | `!points` |
+| 14 | [購買點數](docs/14-buy-points.md) | `!buy <數量>` |
+| 15 | [贈送禮物](docs/15-gift.md) | `!gift @對方 禮物名稱 [數量]` |
+| 16 | [查詢收到的禮物](docs/16-my-gifts.md) | `!mygifts` |
+| 17 | [群發通知](docs/17-announce.md) | `!announce @身分組 訊息` |
 
 ## 附錄
 
 | # | 章節 | 說明 |
 |---|------|------|
-| 17 | [常見問題 FAQ](docs/17-faq.md) | 常見問題與排查步驟 |
-| 18 | [注意事項](docs/18-notes.md) | 安全、規範、管理員須知 |
-| 19 | [速查表](docs/19-quick-reference.md) | 指令速查、選單速查 |
+| 18 | [常見問題 FAQ](docs/18-faq.md) | 常見問題與排查步驟 |
+| 19 | [注意事項](docs/19-notes.md) | 安全、規範、管理員須知 |
+| 20 | [速查表](docs/20-quick-reference.md) | 指令速查、選單速查 |
 
 ---
 
