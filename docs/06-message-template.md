@@ -55,6 +55,8 @@
 | **群發結果通知** | 群發完成後通知發送者 | `{{ role_name }}`、`{{ total }}`、`{{ success }}`、`{{ failed }}` |
 | **工單面板** | 執行 `!ticket_setup` 時發送到頻道 | （無） |
 | **工單歡迎訊息** | 工單建立後發送到新頻道 | `{{ user }}`、`{{ username }}`、`{{ ticket_name }}` |
+| **工單付款通知** | 管理員執行 `!pay` 時 @客戶的訊息 | `{{ customer }}`、`{{ amount }}`、`{{ payment_url }}`、`{{ ticket_name }}`、`{{ payment_no }}` |
+| **工單付款成功通知** | 付款成功時在工單頻道的通知 | `{{ customer }}`、`{{ payment_no }}`、`{{ amount }}`、`{{ ticket_name }}`、`{{ payment_method }}` |
 
 ### Jinja2 語法快速入門
 

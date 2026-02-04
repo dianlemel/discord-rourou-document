@@ -26,6 +26,7 @@
 | 查詢收到的禮物 (gift_received) | 查詢自己收到的禮物統計 |
 | 群發通知 (announce) | 發送群發通知 |
 | 工單設定 (ticket_setup) | 發送工單面板 |
+| 工單付款 (ticket_pay) | 在工單頻道建立付款單 |
 
 ### 預設指令
 
@@ -40,6 +41,7 @@
 | mygifts | 查詢收到的禮物 | `!mygifts` |
 | announce | 群發通知 | `!announce @組 訊息` |
 | ticket_setup | 工單設定 | `!ticket_setup` |
+| pay | 工單付款 | `!pay 1000` |
 
 ### 如何自訂指令名稱
 
