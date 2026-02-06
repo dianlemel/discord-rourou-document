@@ -43,8 +43,9 @@
 
 | 模板類型 | 觸發時機 | 可用變數 |
 |----------|----------|----------|
-| **已綁定通知** | 用戶重複執行 `!bind` | `{{ points }}` — 目前點數 |
-| **綁定成功通知** | 首次綁定成功 | （無） |
+| **綁定面板** | 執行 `!bind_setup` 時發送到頻道 | （無） |
+| **已綁定通知** | 用戶重複綁定（`!bind` 或面板按鈕） | `{{ points }}` — 目前點數 |
+| **綁定成功通知** | 首次綁定成功（`!bind` 或面板按鈕） | （無） |
 | **購買確認** | 用戶執行 `!buy` | `{{ points }}` — 購買點數 |
 | **贈送公告** | 贈送禮物時發到公告頻道 | `{{ sender }}`、`{{ receiver }}`、`{{ gift_name }}`、`{{ gift_description }}`、`{{ gift_image }}`、`{{ gift_thumbnail }}`、`{{ gift_embed_title }}`、`{{ gift_embed_color }}`、`{{ gift_embed_footer }}`、`{{ quantity }}`、`{{ total_cost }}` |
 | **贈送成功通知** | 贈送完成通知贈送者 | `{{ gift_name }}`、`{{ gift_description }}`、`{{ quantity }}`、`{{ total_cost }}`、`{{ receiver }}`、`{{ remaining_points }}` |
