@@ -5,13 +5,14 @@
 | 指令 | 功能 | 範例 |
 |------|------|------|
 | `!bind` | 綁定帳號 | `!bind` |
-| `!bind_setup` | 發送綁定面板 | `!bind_setup` |
+| `!bind_setup [按鈕文字]` | 發送綁定面板 | `!bind_setup` 或 `!bind_setup 點我綁定` |
 | `!points` | 查詢點數 | `!points` |
+| `!points_setup [查詢文字] [購買文字]` | 發送點數面板 | `!points_setup` 或 `!points_setup 查詢餘額 儲值` |
 | `!buy <數量>` | 購買點數 | `!buy 100` |
 | `!gift @對方 <禮物> [數量]` | 贈送禮物 | `!gift @John 玫瑰 3` |
 | `!mygifts` | 查詢禮物庫存 | `!mygifts` |
 | `!announce @身分組 <訊息>` | 群發通知 | `!announce @VIP 活動通知` |
-| `!ticket_setup` | 發送工單面板 | `!ticket_setup` |
+| `!ticket_setup [按鈕文字]` | 發送工單面板 | `!ticket_setup` 或 `!ticket_setup 開啟工單` |
 | `!pay <金額>` | 工單付款（工單頻道內使用） | `!pay 1000` |
 
 > **提示：** 以上指令名稱為預設值，管理員可能已自訂不同的指令名稱，請以伺服器公告為準。
