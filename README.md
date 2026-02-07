@@ -8,7 +8,7 @@
 
 | # | 章節 | 說明 |
 |---|------|------|
-| 1 | [基本設定](docs/01-basic-setup.md) | Bot Token、點數單價、公告頻道、群發權限、點數面板權限、綁定面板權限 |
+| 1 | [基本設定](docs/01-basic-setup.md) | Bot Token、點數單價、公告頻道、群發權限、禮物面板權限、點數面板權限、綁定面板權限 |
 | 2 | [金流設定](docs/02-payment-setup.md) | 綠界科技 / 歐富寶 |
 | 3 | [指令設定](docs/03-command-config.md) | 自訂指令名稱與別名 |
 | 4 | [頻道設定](docs/04-channel-config.md) | 控制指令可用的頻道 |
@@ -33,7 +33,8 @@
 | 14 | [購買點數](docs/14-buy-points.md) | `!buy <數量>`、點數面板購買按鈕 |
 | 15 | [點數面板](docs/15-points-panel.md) | `!points_setup` 點數面板（查詢 + 購買） |
 | 16 | [贈送禮物](docs/15-gift.md) | `!gift @對方 禮物名稱 [數量]` |
-| 17 | [查詢收到的禮物](docs/16-my-gifts.md) | `!mygifts` |
+| 17 | [禮物面板](docs/25-gift-panel.md) | `!gift_setup` 禮物面板（查詢 + 贈送） |
+| 18 | [查詢收到的禮物](docs/16-my-gifts.md) | `!mygifts` |
 | 18 | [群發通知](docs/17-announce.md) | `!announce @身分組 訊息` |
 | 19 | [工單系統](docs/22-ticket.md) | `!ticket_setup`、建立/關閉工單 |
 | 20 | [工單付款](docs/24-ticket-payment.md) | `!pay 金額`、付款流程 |

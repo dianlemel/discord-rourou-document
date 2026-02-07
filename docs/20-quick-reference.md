@@ -10,6 +10,7 @@
 | `!points_setup [查詢文字] [購買文字]` | 發送點數面板 | `!points_setup` 或 `!points_setup 查詢餘額 儲值` |
 | `!buy <數量>` | 購買點數 | `!buy 100` |
 | `!gift @對方 <禮物> [數量]` | 贈送禮物 | `!gift @John 玫瑰 3` |
+| `!gift_setup [查詢文字] [贈送文字]` | 發送禮物面板 | `!gift_setup` 或 `!gift_setup 我的禮物 送禮物` |
 | `!mygifts` | 查詢禮物庫存 | `!mygifts` |
 | `!announce @身分組 <訊息>` | 群發通知 | `!announce @VIP 活動通知` |
 | `!ticket_setup [按鈕文字]` | 發送工單面板 | `!ticket_setup` 或 `!ticket_setup 開啟工單` |
@@ -21,7 +22,7 @@
 
 | 選單路徑 | 功能 |
 |----------|------|
-| 設定 > 一般設定 > Discord | Bot Token、點數單價、金流設定、公告頻道、群發權限、綁定面板權限 |
+| 設定 > 一般設定 > Discord | Bot Token、點數單價、金流設定、公告頻道、群發權限、禮物面板權限、點數面板權限、綁定面板權限 |
 | Discord > 設定 > 指令設定 | 管理指令名稱、別名、啟停用 |
 | Discord > 設定 > 頻道設定 | 管理各指令的可用頻道 |
 | Discord > 設定 > 自動刪除頻道 | 設定訊息自動刪除規則 |
