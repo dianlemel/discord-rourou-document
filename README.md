@@ -19,8 +19,8 @@
 | 9 | [贈送紀錄管理](docs/09-gift-records.md) | 查看贈送紀錄 |
 | 10 | [禮物庫存管理](docs/10-gift-inventory.md) | 管理使用者的禮物庫存 |
 | 11 | [聯絡人整合](docs/11-contact.md) | Discord ID、點數、贈送/接收紀錄、禮物庫存 |
-| 12 | [工單設定與管理](docs/21-ticket-setup.md) | 工單設定、工單記錄管理 |
-| 13 | [工單付款管理](docs/23-ticket-payment-setup.md) | 工單付款設定、付款記錄管理 |
+| 12 | [工單設定與管理](docs/12-ticket-setup.md) | 工單設定、工單記錄管理 |
+| 13 | [工單付款管理](docs/13-ticket-payment-setup.md) | 工單付款設定、付款記錄管理 |
 
 ## 第二部分：Discord 指令操作
 
@@ -28,24 +28,24 @@
 
 | # | 章節 | 說明 |
 |---|------|------|
-| 12 | [帳號綁定](docs/12-binding.md) | `!bind`、`!bind_setup` 綁定面板 |
-| 13 | [查詢點數](docs/13-query-points.md) | `!points`、點數面板查詢按鈕 |
-| 14 | [購買點數](docs/14-buy-points.md) | `!buy <數量>`、點數面板購買按鈕 |
-| 15 | [點數面板](docs/15-points-panel.md) | `!points_setup` 點數面板（查詢 + 購買） |
-| 16 | [贈送禮物](docs/15-gift.md) | `!gift @對方 禮物名稱 [數量]` |
-| 17 | [禮物面板](docs/25-gift-panel.md) | `!gift_setup` 禮物面板（查詢 + 贈送） |
-| 18 | [查詢收到的禮物](docs/16-my-gifts.md) | `!mygifts` |
-| 18 | [群發通知](docs/17-announce.md) | `!announce @身分組 訊息` |
-| 19 | [工單系統](docs/22-ticket.md) | `!ticket_setup`、建立/關閉工單 |
-| 20 | [工單付款](docs/24-ticket-payment.md) | `!pay 金額`、付款流程 |
+| 14 | [帳號綁定](docs/14-binding.md) | `!bind`、`!bind_setup` 綁定面板 |
+| 15 | [查詢點數](docs/15-query-points.md) | `!points`、點數面板查詢按鈕 |
+| 16 | [購買點數](docs/16-buy-points.md) | `!buy <數量>`、點數面板購買按鈕 |
+| 17 | [點數面板](docs/17-points-panel.md) | `!points_setup` 點數面板（查詢 + 購買） |
+| 18 | [贈送禮物](docs/18-gift.md) | `!gift @對方 禮物名稱 [數量]` |
+| 19 | [查詢收到的禮物](docs/19-my-gifts.md) | `!mygifts` |
+| 20 | [群發通知](docs/20-announce.md) | `!announce @身分組 訊息` |
+| 21 | [工單系統](docs/21-ticket.md) | `!ticket_setup`、建立/關閉工單 |
+| 22 | [工單付款](docs/22-ticket-payment.md) | `!pay 金額`、付款流程 |
+| 23 | [禮物面板](docs/23-gift-panel.md) | `!gift_setup` 禮物面板（查詢 + 贈送） |
 
 ## 附錄
 
 | # | 章節 | 說明 |
 |---|------|------|
-| 18 | [常見問題 FAQ](docs/18-faq.md) | 常見問題與排查步驟 |
-| 19 | [注意事項](docs/19-notes.md) | 安全、規範、管理員須知 |
-| 20 | [速查表](docs/20-quick-reference.md) | 指令速查、選單速查 |
+| 24 | [常見問題 FAQ](docs/24-faq.md) | 常見問題與排查步驟 |
+| 25 | [注意事項](docs/25-notes.md) | 安全、規範、管理員須知 |
+| 26 | [速查表](docs/26-quick-reference.md) | 指令速查、選單速查 |
 
 ---
 
