@@ -21,6 +21,7 @@
 | 11 | [聯絡人整合](docs/11-contact.md) | Discord ID、點數、贈送/接收紀錄、禮物庫存 |
 | 12 | [工單設定與管理](docs/12-ticket-setup.md) | 工單設定、工單記錄管理 |
 | 13 | [工單付款管理](docs/13-ticket-payment-setup.md) | 工單付款設定、付款記錄管理 |
+| 14 | [派工設定與管理](docs/27-assign-setup.md) | 派工設定、派工記錄管理 |
 
 ## 第二部分：Discord 指令操作
 
@@ -38,14 +39,15 @@
 | 21 | [工單系統](docs/21-ticket.md) | `!ticket_setup`、建立/關閉工單 |
 | 22 | [工單付款](docs/22-ticket-payment.md) | `!pay 金額`、付款流程 |
 | 23 | [禮物面板](docs/23-gift-panel.md) | `!gift_setup` 禮物面板（查詢 + 贈送） |
+| 24 | [工單派工](docs/28-assign.md) | `!assign @使用者 頻道名稱` 派工指令 |
 
 ## 附錄
 
 | # | 章節 | 說明 |
 |---|------|------|
-| 24 | [常見問題 FAQ](docs/24-faq.md) | 常見問題與排查步驟 |
-| 25 | [注意事項](docs/25-notes.md) | 安全、規範、管理員須知 |
-| 26 | [速查表](docs/26-quick-reference.md) | 指令速查、選單速查 |
+| 25 | [常見問題 FAQ](docs/24-faq.md) | 常見問題與排查步驟 |
+| 26 | [注意事項](docs/25-notes.md) | 安全、規範、管理員須知 |
+| 27 | [速查表](docs/26-quick-reference.md) | 指令速查、選單速查 |
 
 ---
 
