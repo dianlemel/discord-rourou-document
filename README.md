@@ -22,6 +22,7 @@
 | 12 | [工單設定與管理](docs/12-ticket-setup.md) | 工單設定、工單記錄管理 |
 | 13 | [工單付款管理](docs/13-ticket-payment-setup.md) | 工單付款設定、付款記錄管理 |
 | 14 | [派工設定與管理](docs/27-assign-setup.md) | 派工設定、派工記錄管理 |
+| 15 | [Twitch 開台通知](docs/29-twitch-setup.md) | Twitch 頻道監控、開台通知設定 |
 
 ## 第二部分：Discord 指令操作
 
