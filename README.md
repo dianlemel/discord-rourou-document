@@ -17,12 +17,13 @@
 | 7 | [禮物管理](docs/07-gift-management.md) | 禮物項目、別名、圖片、Embed 自訂 |
 | 8 | [購買訂單管理](docs/08-purchase-orders.md) | 查看購買訂單與狀態 |
 | 9 | [贈送紀錄管理](docs/09-gift-records.md) | 查看贈送紀錄 |
-| 10 | [禮物庫存管理](docs/10-gift-inventory.md) | 管理使用者的禮物庫存 |
+| 10 | [禮物庫存管理](docs/10-gift-inventory.md) | 管理使用者的禮物庫存（自有/收到） |
 | 11 | [聯絡人整合](docs/11-contact.md) | Discord ID、點數、贈送/接收紀錄、禮物庫存 |
 | 12 | [工單設定與管理](docs/12-ticket-setup.md) | 工單設定、工單記錄管理 |
 | 13 | [工單付款管理](docs/13-ticket-payment-setup.md) | 工單付款設定、付款記錄管理 |
 | 14 | [派工設定與管理](docs/27-assign-setup.md) | 派工設定、派工記錄管理 |
 | 15 | [Twitch 開台通知](docs/29-twitch-setup.md) | Twitch 頻道監控、開台通知設定 |
+| 16 | [抽獎管理](docs/30-lottery-management.md) | 抽獎活動、獎池設定、權重機率 |
 
 ## 第二部分：Discord 指令操作
 
@@ -35,11 +36,12 @@
 | 16 | [購買點數](docs/16-buy-points.md) | `!buy <數量>`、點數面板購買按鈕 |
 | 17 | [點數面板](docs/17-points-panel.md) | `!points_setup` 點數面板（查詢 + 購買） |
 | 18 | [贈送禮物](docs/18-gift.md) | `!gift @對方 禮物名稱 [數量]` |
-| 19 | [查詢收到的禮物](docs/19-my-gifts.md) | `!mygifts` |
+| 19 | [查詢禮物庫存](docs/19-my-gifts.md) | `!mygifts` |
 | 20 | [群發通知](docs/20-announce.md) | `!announce @身分組 訊息` |
 | 21 | [工單系統](docs/21-ticket.md) | `!ticket_setup`、建立/關閉工單 |
 | 22 | [工單付款](docs/22-ticket-payment.md) | `!pay 金額`、付款流程 |
-| 23 | [禮物面板](docs/23-gift-panel.md) | `!gift_setup` 禮物面板（查詢 + 贈送） |
+| 23 | [禮物面板](docs/23-gift-panel.md) | `!gift_setup` 禮物面板（庫存查詢 + 贈送 + 購買 + 列表） |
+| 25 | [抽獎面板](docs/31-lottery-panel.md) | `!lottery_setup` 抽獎面板（抽獎券列表 + 購買抽獎券） |
 | 24 | [工單派工](docs/28-assign.md) | `!assign @使用者 頻道名稱` 派工指令 |
 
 ## 附錄
