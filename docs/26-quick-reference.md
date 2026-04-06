@@ -10,7 +10,8 @@
 | `!points_setup [查詢文字] [購買文字]` | 發送點數面板 | `!points_setup` 或 `!points_setup 查詢餘額 儲值` |
 | `!buy <數量>` | 購買點數 | `!buy 100` |
 | `!gift @對方 <禮物> [數量]` | 贈送禮物 | `!gift @John 玫瑰 3` |
-| `!gift_setup [查詢文字] [贈送文字]` | 發送禮物面板 | `!gift_setup` 或 `!gift_setup 我的禮物 送禮物` |
+| `!gift_setup [庫存] [贈送] [購買] [列表]` | 發送禮物面板 | `!gift_setup` 或 `!gift_setup 我的禮物 送禮物 買禮物 禮物清單` |
+| `!lottery_setup [列表] [購買]` | 發送抽獎面板 | `!lottery_setup` 或 `!lottery_setup 獎池一覽 立即抽獎` |
 | `!mygifts` | 查詢禮物庫存 | `!mygifts` |
 | `!announce @身分組 <訊息>` | 群發通知 | `!announce @VIP 活動通知` |
 | `!ticket_setup [按鈕文字]` | 發送工單面板 | `!ticket_setup` 或 `!ticket_setup 開啟工單` |
@@ -32,6 +33,8 @@
 | Discord > 點數 > 禮物庫存 | 管理使用者的禮物庫存，可直接新增/編輯/刪除 |
 | Discord > 點數 > 購買訂單 | 查看所有購買訂單與狀態 |
 | Discord > 點數 > 贈送紀錄 | 查看所有贈送紀錄 |
+| Discord > 點數 > 抽獎管理 | 管理抽獎活動、獎池與權重 |
+| Discord > 點數 > 抽獎紀錄 | 查看所有抽獎紀錄 |
 | Discord > 工單 > 工單管理 | 查看所有工單記錄與狀態 |
 | Discord > 工單 > 派工管理 | 查看所有派工記錄與狀態 |
 | Discord > 工單 > 工單付款 | 查看所有工單付款記錄，手動確認銀行匯款 |
