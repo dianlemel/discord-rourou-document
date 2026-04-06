@@ -67,7 +67,7 @@
 | **抽獎面板** | 執行 `!lottery_setup` 時發送到頻道 | （無） |
 | **抽獎券列表** | 點擊抽獎面板「抽獎券列表」按鈕的結果 | `{{ lotteries }}` — 抽獎券列表（每項含 `name`、`cost`、`max_draw`、`description`、`prizes`；prizes 每項含 `name`、`cost`、`rate`） |
 | **購買抽獎券提示** | 點擊抽獎面板「購買抽獎券」按鈕後的提示訊息 | `{{ points }}` — 目前點數 |
-| **抽獎公告** | 抽獎時發到公告頻道 | `{{ user }}`、`{{ lottery_name }}`、`{{ gift_image }}`、`{{ gift_thumbnail }}`、`{{ draw_count }}`、`{{ results }}`、`{{ total_cost }}` |
+| **抽獎公告** | 抽獎時發到公告頻道 | `{{ user }}`、`{{ lottery_name }}`、`{{ gift_image }}`、`{{ gift_thumbnail }}`、`{{ draw_count }}`、`{{ results }}`（每項含 `gift_name`、`gift_cost`）、`{{ total_cost }}` |
 
 ### Jinja2 語法快速入門
 
