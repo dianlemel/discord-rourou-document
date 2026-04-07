@@ -47,8 +47,8 @@
 | **已綁定通知** | 用戶重複綁定（`!bind` 或面板按鈕） | `{{ points }}` — 目前點數 |
 | **綁定成功通知** | 首次綁定成功（`!bind` 或面板按鈕） | （無） |
 | **購買確認** | 用戶執行 `!buy` | `{{ points }}` — 購買點數 |
-| **贈送公告** | 贈送禮物時發到公告頻道 | `{{ sender }}`、`{{ receiver }}`、`{{ gift_name }}`、`{{ gift_description }}`、`{{ gift_image }}`、`{{ gift_thumbnail }}`、`{{ gift_embed_title }}`、`{{ gift_embed_color }}`、`{{ gift_embed_footer }}`、`{{ quantity }}`、`{{ total_cost }}` |
-| **贈送成功通知** | 贈送完成通知贈送者 | `{{ gift_name }}`、`{{ gift_description }}`、`{{ quantity }}`、`{{ total_cost }}`、`{{ receiver }}`、`{{ remaining_points }}` |
+| **贈送公告** | 贈送禮物時發到公告頻道 | `{{ sender }}`、`{{ receiver }}`、`{{ gift_name }}`、`{{ gift_description }}`、`{{ gift_image }}`、`{{ gift_thumbnail }}`、`{{ gift_embed_title }}`、`{{ gift_embed_color }}`、`{{ gift_embed_footer }}`、`{{ quantity }}`、`{{ total_cost }}`（從庫存贈送時為 0）、`{{ gift_value }}` |
+| **贈送成功通知** | 贈送完成通知贈送者 | `{{ gift_name }}`、`{{ gift_description }}`、`{{ quantity }}`、`{{ total_cost }}`、`{{ gift_value }}`、`{{ receiver }}`、`{{ remaining_points }}` |
 | **收到的禮物查詢** | 用戶執行 `!mygifts` | `{{ gifts }}` — 禮物列表（每項含 `name` 和 `quantity`） |
 | **付款成功通知** | 付款完成後通知用戶 | `{{ order_no }}`、`{{ points }}`、`{{ amount }}`、`{{ points_before }}`、`{{ points_after }}` |
 | **點數查詢** | 用戶執行 `!points` | `{{ points }}` — 目前點數 |
