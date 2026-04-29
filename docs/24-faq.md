@@ -62,3 +62,34 @@
 1. 確認至少一種金流（綠界或歐富寶）的**商店代號、HashKey、HashIV** 都已正確填寫。
 2. 確認**測試模式**的設定與實際環境一致（正式環境請取消勾選）。
 3. 確認 Odoo 的 `web.base.url` 系統參數設定正確（付款回調需要用到）。
+
+### Q：點選會員中心面板按鈕，跳到 Discord 卻顯示「無效的 OAuth2 redirect_uri」？
+
+**常見原因**：Odoo 的 `web.base.url` 與 Discord Developer Portal 的 Redirect URI 不一致（最常見是 `http` vs `https`）。
+
+**解法**：
+
+1. 開啟開發者模式 → **設定 > 技術 > 系統參數**。
+2. 確認 `web.base.url` 是 `https://你的網域`（與 Developer Portal 設定的 Redirect URI 完全一致）。
+3. 確認 `web.base.url.freeze` 設為 `True`，避免 Odoo 自動把 `web.base.url` 覆寫回 http。
+
+詳細說明請參考 [17. 會員中心設定](32-portal-setup.md)。
+
+### Q：登入會員中心後，右上角的頭像顯示不出來？
+
+**常見原因**：可能您是先用 `!bind` 綁定，當時沒成功下載頭像；或先用會員中心 OAuth2 自動建立帳號，當時 Discord CDN 暫時無法存取。
+
+**解法**：
+
+- 透過 OAuth2 建立的帳號會在登入時嘗試下載頭像，如果失敗您可以請管理員在 Odoo 後台 → 聯絡人中手動上傳。
+- 不影響其他功能使用。
+
+### Q：會員中心一直跳回登入頁？
+
+**常見原因**：
+
+- 瀏覽器禁用了 cookie。
+- 使用無痕模式且關閉了視窗（cookie 被清除）。
+- 您之前的 session 已超過 7 天有效期。
+
+**解法**：確認瀏覽器允許接收 cookie，重新點選「使用 Discord 登入」即可。
