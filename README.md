@@ -24,6 +24,7 @@
 | 14 | [派工設定與管理](docs/27-assign-setup.md) | 派工設定、派工記錄管理 |
 | 15 | [Twitch 開台通知](docs/29-twitch-setup.md) | Twitch 頻道監控、開台通知設定 |
 | 16 | [抽獎管理](docs/30-lottery-management.md) | 抽獎活動、獎池設定、權重機率 |
+| 17 | [會員中心設定](docs/32-portal-setup.md) | Discord OAuth2、Client ID/Secret、會員中心面板權限 |
 
 ## 第二部分：Discord 指令操作
 
@@ -43,6 +44,7 @@
 | 23 | [禮物面板](docs/23-gift-panel.md) | `!gift_setup` 禮物面板（庫存查詢 + 贈送 + 購買 + 列表） |
 | 25 | [抽獎面板](docs/31-lottery-panel.md) | `!lottery_setup` 抽獎面板（抽獎券列表 + 購買抽獎券） |
 | 24 | [工單派工](docs/28-assign.md) | `!assign @使用者 頻道名稱` 派工指令 |
+| 26 | [會員中心](docs/33-portal.md) | `!portal_setup` 會員中心面板，網頁查看禮物收藏、購買 / 贈送 / 抽獎紀錄 |
 
 ## 附錄
 
