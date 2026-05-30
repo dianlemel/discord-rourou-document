@@ -86,11 +86,11 @@
 ### 第一則：一般訊息
 
 ```
-@everyone 古錐 開台了！
+古錐 開台了！
 <https://www.twitch.tv/rourou156>
 ```
 
-- 會 **@everyone** 通知所有人。
+- 不會 tag `@everyone`，僅發送通知文字。
 - 自訂通知文字中的 `{{name}}` 會替換為實況主名稱。
 - Twitch 連結不會產生重複的預覽。
 
